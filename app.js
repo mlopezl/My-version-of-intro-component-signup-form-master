@@ -27,6 +27,7 @@ form.addEventListener('submit', (event) => {
     });
 
     if (validSubmit) {
-        form.submit();
+        form.reset();
+        alert("Thank you for completing your registration.")
     }
 });

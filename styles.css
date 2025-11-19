@@ -134,9 +134,12 @@ body{
 }
 
 .input__container input:focus{
-    border: 1px solid var(--Dark-Blue);
+    border: 1px solid var(--Grayish-Blue);
+    color: var(--Dark-Blue);
+    font-weight: bold;
     &::placeholder{
-        color: var(--Dark-Blue);
+        color: var(--Grayish-Blue);
+        font-weight: bold;
     }
 }
 
